@@ -133,12 +133,13 @@ html, body {
 .search {      
     position: absolute;
     height: 37px;
-    right: 120px;    
+    right: 120px;  
+    display: none;
 }
 
 
 
-@media (min-width: 10px) and (max-width: 1200px) {
+@media (min-width: 480px) and (max-width: 1200px) {
     .search {
         display: none;
     }
